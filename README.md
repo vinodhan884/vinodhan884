@@ -1,5 +1,7 @@
 # vinodhan884
 Pythoon open a file
+
+
 #With Function
 with open("yyy", "r") as file:
     print(file.read())
