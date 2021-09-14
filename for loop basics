@@ -1,0 +1,6 @@
+
+# end=',' (values print in horizontally by default is vertical)
+
+fruits = ['vinod', 'banan']
+for fruit in fruits:
+    print(fruit, end=',')
