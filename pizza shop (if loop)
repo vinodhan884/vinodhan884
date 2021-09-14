@@ -1,0 +1,26 @@
+
+
+print("welcome to my pizza shop ")
+Size =input ("pizza size :-S or L or M : ")
+pepper = input("pepper :y or n : ")
+cheese = input ("cheese :- y or n : ")
+bill=0
+
+if (Size == "S"):
+    bill =+15
+elif (Size == "M"):
+    bill =+20
+else :
+    bill =+25
+if pepper == "Y":
+    if Size == "S":
+        bill +=2
+    else:
+        bill +=3
+if cheese == "Y" :
+    bill +=1
+
+print(f"your FINAL  bill is ${bill}")
+
+
+
