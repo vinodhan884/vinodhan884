@@ -1,0 +1,13 @@
+rule 1:
+number is divisible by 3 rather than print number its print Fizz
+number is divisible by 5 rather than print number its print Buzz
+number is divisible by both 3&5 rather than print number its print Fizzbuzz
+
+for number in range(1,101):
+  if number % 3 == 0 and number % 5 == 0:
+    print("FizzBuzz")
+  elif number % 3 == 0:
+    print("Fizz")
+  elif number % 5 == 0:
+    print ("Buzz")
+
