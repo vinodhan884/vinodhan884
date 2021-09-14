@@ -1,0 +1,5 @@
+# random is a function ---use to pick the random pick in the list (especially  its useful for rendering treat  )
+import random
+names = ['vinodhan','venkatesh','logesh','kanna','sanjai']
+print(names)
+print(random.choice(names))
