@@ -1,0 +1,9 @@
+Str= "This is test dummy 10.1.1.1 message"
+# expected output 10.1.1.1
+# list =Str.split()
+# print(list[4:6])
+
+
+for number in Str:
+    if number in "0123456789":
+        print(number)
