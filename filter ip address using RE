@@ -1,0 +1,7 @@
+import re
+IP = input("enter the IP_address:")
+pattern="^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$"
+if(re.search(pattern,IP)):
+    print(f"{IP} is valid")
+else:
+    print(f"{IP} is not valid")
